@@ -1,0 +1,33 @@
+{
+    "name": "FastQR - Generate QR Codes offline",
+    "name": "__MSG_appname__",
+    "default_locale": "en",
+    "description": "__MSG_appdescription__",
+    "version": "0.0.0.6",
+    "manifest_version": 2,
+    "offline_enabled": true,
+    "minimum_chrome_version": "23",
+    "permissions": ["notifications", "clipboardRead", "clipboardWrite", "contextMenus", "http://*.lucasguimaraes.com/*", "storage", {
+            "fileSystem": ["write", "directory"]
+        }
+    ],
+    "app": {
+        "background": {
+            "scripts": ["js/background.js"],
+            "persistent": false
+        }
+    },
+    "icons": {
+        "16": "images/png/fqr16.png",
+        "24": "images/png/fqr24.png",
+        "32": "images/png/fqr32.png",
+        "48": "images/png/fqr48.png",
+        "64": "images/png/fqr64.png",
+        "96": "images/png/fqr96.png",
+        "128": "images/png/fqr128.png",
+        "128": "images/png/fqr172.png",
+        "256": "images/png/fqr256.png",
+        "512": "images/png/fqr512.png"
+    },
+    "short_name": "FastQR"
+}

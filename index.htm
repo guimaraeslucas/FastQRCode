@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<!--
+##############################################################
+#. . . . . . . . . . LUCASGUIMARAES.COM. . . . . . . . . . . #
+#. . . . . . . . . . (C) COPYRIGHT 2013. . . . . . . . . . . #
+##############################################################
+*
+* @copyright 2012-2013 LucasGuimaraes.com
+* @link <contato@lucasguimaraes.com>
+* @link http://www.lucasguimaraes.com
+* @generator LGPowerWeb/2.0.0 LGGM/6.0.2 (4.0.0)
+*
+* The above copyright notice shall be included in all
+* copies or substantial portions of the Software.
+*
+-->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<!-- Changed by global.js using chrome.i18n -->
+		<title>FastQR by .LG</title>
+		<!--_LGGM-->
+		<meta name="copyright" content="Copyright 2014 - LucasGuimaraes.com">
+		<meta name="generator" content="LGPowerWeb/2.0.0 LGGM/6.0.2 (5.0.0)">
+		<meta name="author" content="Lucas Guimarães">
+		<link rel="shortcut icon" type="image/png" href="images/png/fqr16.png">
+		<link rel="favicon" type="image/png" href="images/png/fs16.png">
+		<link rel="shortcut icon" href="images/png/fqr16.png" sizes="16x16">
+		<link rel="shortcut icon" href="images/png/fqr24.png" sizes="24x24">
+		<link rel="shortcut icon" href="images/png/fqr32.png" sizes="32x32">
+		<link rel="shortcut icon" href="images/png/fqr48.png" sizes="48x48">
+		<link rel="shortcut icon" href="images/png/fqr64.png" sizes="64x64">
+		<link rel="shortcut icon" href="images/png/fqr96.png" sizes="96x96">
+		<link rel="shortcut icon" href="images/png/fqr128.png" sizes="128x128">
+		<link rel="shortcut icon" href="images/png/fqr172.png" sizes="172x172">
+		<link rel="shortcut icon" href="images/png/fqr256.png" sizes="256x256">
+		<link rel="shortcut icon" href="images/png/fqr512.png" sizes="512x512">
+		<!-- Mobile icons and chrome icons-->
+		<link rel="icon" type="image/png" href="images/png/fqr16.png">
+		<link rel="icon" type="image/png" href="images/png/fqr24.png" sizes="24x24">
+		<link rel="icon" type="image/png" href="images/png/fqr32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="images/png/fqr48.png" sizes="48x48">
+		<link rel="icon" type="image/png" href="images/png/fqr64.png" sizes="64x64">
+		<link rel="icon" type="image/png" href="images/png/fqr96.png" sizes="96x96">
+		<link rel="icon" type="image/png" href="images/png/fqr128.png" sizes="128x128">
+		<link rel="icon" type="image/png" href="images/png/fqr172.png" sizes="172x172">
+		<link rel="icon" type="image/png" href="images/png/fqr256.png" sizes="256x256">
+		<link rel="icon" type="image/png" href="images/png/fqr512.png" sizes="512x512">
+		<!--Let's make sure Google and Facebook can find us-->
+		<meta property="og:title" content="FastQR by .LG">
+		<meta property="og:site_name" content="FastQR">
+		<meta property="og:description" content="FastQR allows you to create QR codes on the fly.">
+		<meta property="og:type" content="website">
+		<meta property="og:locale:alternate" content="en_US">
+		<meta property="og:locale:alternate" content="es_ES">
+		<meta property="og:locale:alternate" content="pt_BR">
+		<meta property="og:locale:alternate" content="de">
+		<meta property="og:locale:alternate" content="pt_PT">
+		<meta property="og:locale:alternate" content="zn_CN">
+		<meta property="og:locale:alternate" content="he">
+		<meta property="og:url" content="http://fastqr.lgvirtual.com">
+		<meta property="og:image" content="http://fastqr.lgvirtual.com/images/png/fqr256.png">
+		<meta name="title" content="FastQR by .LG">
+		<meta name="language" content="en">
+		<meta name="robots" content="index,follow">
+		<meta name="rating" content="general">
+		<meta name="distribution" content="global">
+		<meta http-equiv="imagetoolbar" content="no">
+		<meta name="application-name" content="FastQR by .LG">
+		<meta name="description" content="FastQR allows you to create QR codes on the fly.">
+		<meta name="google" content="notranslate">
+		<meta name="referrer" content="always">
+		<!--IE-->
+		<meta name="msapplication-tooltip" content="FastQR">
+		<meta name="msapplication-starturl" content="http://fastqr.lgvirtual.com">
+		<meta name="msapplication-navbutton-color" content="#2b76bb">
+		<meta name="msapplication-task" content="name=LucasGuimaraes.com;action-uri=http://lgvirtual.com;icon-uri=http://lgvirtual.com/favicon.ico">
+		<meta name="msapplication-window" content="width=1024;height=768">
+		<meta http-equiv="imagetoolbar" content="false">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="msapplication-tileimage" content="images/png/fqr128.png">
+		<meta name="msapplication-tilecolor" content="#CCCCCC">
+		<!--APPLE-->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-title" content="FastQR">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="HandheldFriendly" content="1">
+		<meta name="MobileOptimized" content="1">
+		<link href="images/png/fqr512.png" rel="apple-touch-icon">
+		<meta name="viewport" content="width=device-width, user-scalable=1, minimum-scale=0.1, maximum-scale=1.0">
+		<!--_/LGGM-->
+		<!--_CSS-->
+		<style>
+			.loader {
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				z-index: 10000;
+				top: 0px;
+				left: 0px;
+				background-color: #2b76bb;
+				color: #ebebeb;
+				overflow: hidden;
+			}
+
+			#loadingImage64, .loader {
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-image: url('data:image/gif;base64,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');
+			}
+		</style>
+		<!--_/CSS-->
+	</head>
+	<body>
+		<div class="loader"></div>
+
+		<!-- Static navbar -->
+		<div class="navbar navbar-default navbar-static-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">FastQR <img src="images/png/fqr16.png"></a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li id="liText" class="active">
+							<a href="#" id="btnText">Text/Link</a>
+						</li>
+						<li id="liVCard">
+							<a href="#" id="btnVCard">vCard</a>
+						</li>
+						<li id="liSms">
+							<a href="#" id="btnSms">SMS</a>
+						</li>
+						<li id="liEmail">
+							<a href="#" id="btnEmail">E-mail</a>
+						</li>
+						<li id="liGeo">
+							<a href="#" id="btnGeo">Geo</a>
+						</li>
+					</ul>
+
+				</div><!--/.nav-collapse -->
+			</div>
+		</div>
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-xs-6 HideShow" id="texto">
+					<h4 id="generatelink">Generate Text/Link QR Code</h4>
+					<p>
+						<input type="text" id="qrText" name="qtText" class="form-control" placeholder="Text or Link">
+					</p>
+					<button type="button" class="btn btn-default" id="doIt1">
+						<span class="glyphicon glyphicon-floppy-save"></span><span class="generateBtn">Generate</span>
+					</button>
+				</div>
+
+				<div class="col-xs-6 HideShow" id="email" style="display:none;">
+					<h4 id="generateemail">Generate E-mail QR Code</h4>
+					<p>
+						<input type="email" id="qrEEmail" class="form-control" placeholder="E-mail">
+					</p>
+					<p>
+						<input type="text" id="qrESubject" class="form-control" placeholder="Subject">
+					</p>
+					<p>
+						<input type="text" id="qrEMessage" class="form-control" placeholder="Message">
+					</p>
+					<button type="button" class="btn btn-default" id="doIt2">
+						<span class="glyphicon glyphicon-floppy-save"></span><span class="generateBtn">Generate</span>
+					</button>
+				</div>
+
+				<div class="col-xs-6 HideShow" id="sms" style="display:none;">
+					<h4 id="generatesms">Generate SMS QR Code</h4>
+					<p>
+						<input type="tel" id="qrSNumber" class="form-control" placeholder="Number">
+					</p>
+					<p>
+						<input type="text" id="qrSMessage" class="form-control" placeholder="Message">
+					</p>
+
+					<button type="button" class="btn btn-default" id="doIt3">
+						<span class="glyphicon glyphicon-floppy-save"></span><span class="generateBtn">Generate</span>
+					</button>
+				</div>
+
+				<div class="col-xs-6 correctSize HideShow"  id="vcard" style="display:none;">
+					<h4 id="generatevcard">Generate vCard QR Code</h4>
+					<p>
+						<input type="text" id="qrVName" class="form-control" placeholder="Name">
+					</p>
+					<p>
+						<input type="text" id="qrVLName" class="form-control" placeholder="Last Name">
+					</p>
+					<p>
+						<input type="text" id="qrVOrg" class="form-control" placeholder="Organization">
+					</p>
+					<p>
+						<input type="text" id="qrVTitle" class="form-control" placeholder="Title">
+					</p>
+					<p>
+						<input type="text" id="qrVStreet" class="form-control" placeholder="Street">
+					</p>
+					<p>
+						<input type="text" id="qrVCity" class="form-control" placeholder="City">
+					</p>
+					<p>
+						<input type="text" id="qrVLocation" class="form-control" placeholder="Location">
+					</p>
+					<p>
+						<input type="text" id="qrVZip" class="form-control" placeholder="ZIP">
+					</p>
+					<p>
+						<input type="text" id="qrVCountry" class="form-control" placeholder="Country">
+					</p>
+					<p>
+						<input type="tel" id="qrVTel" class="form-control" placeholder="Telephone">
+					</p>
+					<p>
+						<input type="tel" id="qrVMobile" class="form-control" placeholder="Mobile phone">
+					</p>
+					<p>
+						<input type="tel" id="qrVFax" class="form-control" placeholder="FAX">
+					</p>
+					<p>
+						<input type="email" id="qrVEmail" class="form-control" placeholder="E-mail">
+					</p>
+					<p>
+						<input type="text" id="qrVUrl" class="form-control" placeholder="Web-site">
+					</p>
+					<p>
+						<input type="date" id="qrVBday" class="form-control" placeholder="Birthday">
+					</p>
+					<button type="button" class="btn btn-default" id="doIt4">
+						<span class="glyphicon glyphicon-floppy-save"></span><span class="generateBtn">Generate</span>
+					</button>
+				</div>
+
+				<div class="col-xs-6 HideShow" id="geo" style="display:none;">
+					<h4 id="generategeo">Generate GEO QR Code</h4>
+					<p>
+						<input type="tel" id="qrGLat" class="form-control" placeholder="Latitude">
+					</p>
+					<p>
+						<input type="text" id="qrGLon" class="form-control" placeholder="Longitude">
+					</p>
+
+					<button type="button" class="btn btn-default" id="doIt5">
+						<span class="glyphicon glyphicon-floppy-save"></span><span class="generateBtn">Generate</span>
+					</button>
+				</div>
+
+				<div class="col-xs-6">
+					<div id="generateQr"></div>
+					<span id="qrLink"></span>
+				</div>
+			</div>
+
+		</div>
+		<div class="footer">
+			<p>
+				&copy;  2014 - <a href="http://lucasguimaraes.com" target="_blank">http://lucasguimaraes.com</a>
+			</p>
+		</div>
+
+		<!--SCRIPT AND CSS-->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<style>
+			body {
+				font-family: "Segoe UI Light", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+				color: #2b76bb;
+				background-color: #ebebeb;
+			}
+			.footer {
+				margin-top: 15px;
+				padding-top: 10px;
+				padding-left: 15px;
+				color: #777;
+				font-size: 12px;
+				border-top: 1px solid #CCCCCC;
+			}
+			@media only screen and (max-height: 500px) {
+				.correctSize {
+					overflow-y: scroll;
+					max-height: 280px;
+				}
+			}
+			@media only screen and (min-height: 500px) and (max-height: 600px) {
+				.correctSize {
+					overflow-y: scroll;
+					max-height: 480px;
+				}
+			}
+			@media only screen and (min-height: 600px) and (max-height: 700px) {
+				.correctSize {
+					overflow-y: scroll;
+					max-height: 550px;
+				}
+			}
+			@media only screen and (min-height: 700px) and (max-height: 800px) {
+				.correctSize {
+					overflow-y: scroll;
+					max-height: 600px;
+				}
+			}
+		</style>
+		<script src="js/loader.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

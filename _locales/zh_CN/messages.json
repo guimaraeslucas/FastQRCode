@@ -1,0 +1,77 @@
+{
+    "appdescription": {
+        "message": "FastQR允许您创建和保存为PNG格式的QR码，而无需连接到互联网。"
+    },
+    "appname": {
+        "message": "FastQR - 离线生成QR码 (QR Code)"
+    },
+    "generatelink": {
+        "message": "生成文本/链接QR码"
+    },
+    "generateBtn": {
+        "message": "生成"
+    },
+    "generateemail": {
+        "message": "生成的E-mail QR码"
+    },
+    "generatesms": {
+        "message": "生成短信二维码"
+    },
+    "generatevcard": {
+        "message": "生成电子名片二维码"
+    },
+    "generategeo": {
+        "message": "GEO生成QR码"
+    },
+    "qrESubject": {
+        "message": "主题"
+    },
+    "qrEMessage": {
+        "message": "讯息"
+    },
+    "qrSNumber": {
+        "message": "编号"
+    },
+    "qrSMessage": {
+        "message": "讯息"
+    },
+    "qrVName": {
+        "message": "产品名称"
+    },
+    "qrVLName": {
+        "message": "姓"
+    },
+    "qrVOrg": {
+        "message": "本组织"
+    },
+    "qrVTitle": {
+        "message": "标题/角色"
+    },
+    "qrVStreet": {
+        "message": "街"
+    },
+    "qrVCity": {
+        "message": "城"
+    },
+    "qrVLocation": {
+        "message": "国家/地区/县"
+    },
+    "qrVZip": {
+        "message": "邮政编码"
+    },
+    "qrVCountry": {
+        "message": "国家"
+    },
+    "qrVTel": {
+        "message": "电话"
+    },
+    "qrVMobile": {
+        "message": "手机"
+    },
+    "qrVFax": {
+        "message": "传真"
+    },
+    "qrVBday": {
+        "message": "生日"
+    }
+}

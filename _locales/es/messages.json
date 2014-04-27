@@ -1,0 +1,77 @@
+{
+    "appdescription": {
+        "message": "FastQR le permite crear y guardar códigos QR en formato PNG sin necesidad de una conexión a Internet."
+    },
+    "appname": {
+        "message": "FastQR - Generar códigos QR (QR Code) offline"
+    },
+    "generatelink": {
+        "message": "Generar Texto / Link"
+    },
+    "generateBtn": {
+        "message": "Generar"
+    },
+    "generateemail": {
+        "message": "Generar E-mail"
+    },
+    "generatesms": {
+        "message": "Generar SMS"
+    },
+    "generatevcard": {
+        "message": "Generar vCard"
+    },
+    "generategeo": {
+        "message": "Generar GEO"
+    },
+    "qrESubject": {
+        "message": "Asunto"
+    },
+    "qrEMessage": {
+        "message": "Mesaje"
+    },
+    "qrSNumber": {
+        "message": "Número"
+    },
+    "qrSMessage": {
+        "message": "Mesaje"
+    },
+    "qrVName": {
+        "message": "Nombre"
+    },
+    "qrVLName": {
+        "message": "Appelido"
+    },
+    "qrVOrg": {
+        "message": "Empresa"
+    },
+    "qrVTitle": {
+        "message": "Posicíon"
+    },
+    "qrVStreet": {
+        "message": "Calle"
+    },
+    "qrVCity": {
+        "message": "Ciudad"
+    },
+    "qrVLocation": {
+        "message": "Estado"
+    },
+    "qrVZip": {
+        "message": "Código postal"
+    },
+    "qrVCountry": {
+        "message": "País"
+    },
+    "qrVTel": {
+        "message": "Telefone"
+    },
+    "qrVMobile": {
+        "message": "Celular"
+    },
+    "qrVFax": {
+        "message": "FAX"
+    },
+    "qrVBday": {
+        "message": "Fecha de nacimiento"
+    }
+}

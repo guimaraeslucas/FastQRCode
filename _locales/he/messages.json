@@ -1,0 +1,77 @@
+{
+    "appdescription": {
+        "message": "FastQR מאפשר לך ליצור ולשמור קודי QRבפורמט PNG, ללא צורךבחיבור"
+    },
+    "appname": {
+        "message": "FastQR - (QR Code) ליצור קודי QR לא מקוון"
+    },
+    "generatelink": {
+        "message": "צור טקסט / קישור QR Code"
+    },
+    "generateBtn": {
+        "message": "צור"
+    },
+    "generateemail": {
+        "message": "צור דואר אלקטרוני QR Code"
+    },
+    "generatesms": {
+        "message": "צור SMS QR Code"
+    },
+    "generatevcard": {
+        "message": "צור vCard QR Code"
+    },
+    "generategeo": {
+        "message": "צור GEO QR Code"
+    },
+    "qrESubject": {
+        "message": "נושא"
+    },
+    "qrEMessage": {
+        "message": "הודעה"
+    },
+    "qrSNumber": {
+        "message": "מספר"
+    },
+    "qrSMessage": {
+        "message": "הודעה"
+    },
+    "qrVName": {
+        "message": "שם"
+    },
+    "qrVLName": {
+        "message": "שם משפחה"
+    },
+    "qrVOrg": {
+        "message": "ארגון"
+    },
+    "qrVTitle": {
+        "message": "כותרת / תפקיד"
+    },
+    "qrVStreet": {
+        "message": "רחוב"
+    },
+    "qrVCity": {
+        "message": "עיר"
+    },
+    "qrVLocation": {
+        "message": "מדינה / אזור / מחוז"
+    },
+    "qrVZip": {
+        "message": "מיקוד"
+    },
+    "qrVCountry": {
+        "message": "מדינה"
+    },
+    "qrVTel": {
+        "message": "טלפון"
+    },
+    "qrVMobile": {
+        "message": "טלפון נייד"
+    },
+    "qrVFax": {
+        "message": "פקס"
+    },
+    "qrVBday": {
+        "message": "יום הולדת"
+    }
+}

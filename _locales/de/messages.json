@@ -1,0 +1,77 @@
+{
+    "appdescription": {
+        "message": "FastQR ermöglicht Ihnen das Erstellen und speichern Sie QR-Codes im PNG-Format , ohne dass eine Internetverbindung ."
+    },
+    "appname": {
+        "message": "FastQR - Generieren Sie QR Code offline"
+    },
+    "generatelink": {
+        "message": "Erzeugen Text/Link QR Code"
+    },
+    "generateBtn": {
+        "message": "Erzeugen"
+    },
+    "generateemail": {
+        "message": "Erzeugen E-mail QR Code"
+    },
+    "generatesms": {
+        "message": "Erzeugen SMS QR Code"
+    },
+    "generatevcard": {
+        "message": "Erzeugen vCard QR Code"
+    },
+    "generategeo": {
+        "message": "Erzeugen GEO QR Code"
+    },
+    "qrESubject": {
+        "message": "Betreff"
+    },
+    "qrEMessage": {
+        "message": "Nachricht"
+    },
+    "qrSNumber": {
+        "message": "Nummer"
+    },
+    "qrSMessage": {
+        "message": "Nachricht"
+    },
+    "qrVName": {
+        "message": "Name"
+    },
+    "qrVLName": {
+        "message": "Nachname"
+    },
+    "qrVOrg": {
+        "message": "Unternehmen"
+    },
+    "qrVTitle": {
+        "message": "Titel"
+    },
+    "qrVStreet": {
+        "message": "Straße"
+    },
+    "qrVCity": {
+        "message": "Stadt"
+    },
+    "qrVLocation": {
+        "message": "Bundesland / Region / Kreis"
+    },
+    "qrVZip": {
+        "message": "Postleitzahl"
+    },
+    "qrVCountry": {
+        "message": "Land"
+    },
+    "qrVTel": {
+        "message": "Telefon"
+    },
+    "qrVMobile": {
+        "message": "Mobiltelefon"
+    },
+    "qrVFax": {
+        "message": "FAX"
+    },
+    "qrVBday": {
+        "message": "Geburtstag"
+    }
+}
