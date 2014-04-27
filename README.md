@@ -1,6 +1,4 @@
 FastQR
 =
 
-Generate QRCode usign javascript
-=
-ChromeApp
+Generate QRCodes usign javascript in Google Chrome
